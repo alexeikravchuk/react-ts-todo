@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import TodoList from './components/TodoList';
 import NewTodo from './components/NewTodo';
 import { Todo } from './todo.model'
+// import { Route } from 'react-router-dom'
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([])
